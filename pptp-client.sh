@@ -20,5 +20,5 @@ EOF
 cat <<EOF > /etc/ppp/chap-secrets
 username_vpn   dial-vpn        password_vpn
 EOF
-echo " You can connect vpn using " pon dial-vpn ""
-echo " You can disconect vpn using " poff dial-vpn ""
+echo " You can connect vpn using : pon dial-vpn "
+echo " You can disconect vpn using : poff dial-vpn "
